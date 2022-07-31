@@ -1,0 +1,5 @@
+openssl pkcs12 -export -in C:\Users\dydrk\demo\certs\www.localhost\cert.pem -inkey C:\Users\dydrk\demo\certs\www.localhost\key.pem -out C:/Users/dydrk/demo/certs/yong_ssl.p12 -name localhost -CAfile C:/Users/dydrk/demo/certs/minica.pem -caname minica
+
+
+
+keytool -importkeystore -deststorepass intern2! -destkeypass intern2! -destkeystore minica.jks -srckeystore yong_ssl.p12 -srcstoretype PKCS12 -srcstorepass "intern2!" -alias localhost
