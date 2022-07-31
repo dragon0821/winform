@@ -177,9 +177,7 @@
             series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             series3.Legend = "Legend1";
             series3.Name = "ecg";
-            series3.XAxisType = System.Windows.Forms.DataVisualization.Charting.AxisType.Secondary;
             series3.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
-            series3.YAxisType = System.Windows.Forms.DataVisualization.Charting.AxisType.Secondary;
             series4.ChartArea = "ChartArea2";
             series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             series4.LabelForeColor = System.Drawing.Color.Red;
